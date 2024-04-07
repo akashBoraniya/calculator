@@ -1,0 +1,45 @@
+body {
+    background-color: ghostwhite;
+  }
+
+  .table {
+    outline: 1px solid black;
+    text-align: center;
+    margin: auto;
+    background: #dde1e7;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: -3px -3px 7px #ffffff73,
+      2px 2px 5px rgba(94, 104, 121, 0.288);
+  }
+
+  td {
+    outline: 1px solid black;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+  }
+
+  table td:hover {
+    cursor: pointer;
+  }
+
+  tr {
+    height: 50px;
+    background-color: white;
+  }
+  .bdr {
+    border-radius: 50px;
+  }
+
+  #disp {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  .orange {
+    background-color: orange;
+  }

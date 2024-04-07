@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+      <table cellspacing="10px" class="table">
+        <tr>
+          <td class="bdr" id="disp" colspan="6"></td>
+        </tr>
+        <tr>
+          <td class="bdr orange" onclick="digit(this.innerHTML)">C</td>
+          <td class="bdr orange">MC</td>
+          <td class="bdr orange" onclick="del()">DEL</td>
+          <td class="bdr orange" onclick="opr(this.innerHTML)">/</td>
+        </tr>
+        <tr>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="7">7</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="8">8</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="9">9</td>
+          <td class="bdr orange" onclick="opr(this.innerHTML)" id="plus">+</td>
+        </tr>
+        <tr>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="4">4</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="5">5</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="6">6</td>
+          <td class="bdr orange" onclick="opr(this.innerHTML)">-</td>
+        </tr>
+        <tr>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="1">1</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="2">2</td>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="2">3</td>
+          <td class="bdr orange" onclick="opr(this.innerHTML)">*</td>
+        </tr>
+        <tr>
+          <td class="bdr" onclick="digit(this.innerHTML)" id="0">0</td>
+          <td class="bdr" onclick="point()">.</td>
+          <td class="bdr" onclick="opr(this.innerHTML)">%</td>
+          <td class="bdr orange" onclick="eql(this.innerHTML)">=</td>
+        </tr>
+      </table>
+  </body>
+  <script src="script.js">
+   
+  </script>
+</html>
